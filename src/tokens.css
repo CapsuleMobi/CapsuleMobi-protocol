@@ -1,0 +1,30 @@
+/*
+  Palette provenance: k-means (k=5, random_state 0) over pixels of reference/CAPSULE 1..6 and brand/ logo files.
+  Each centroid was snapped to the nearest real pixel; its file and coordinate are recorded in brand/palette-proof.json.
+  ink-0    reference/CAPSULE 1.jpg.jpeg (328,20)    dominant cluster, page void
+  ink-1    reference/CAPSULE 1.jpg.jpeg (1282,295)  surface cluster
+  ink-2    reference/CAPSULE 1.jpg.jpeg (1109,308)  edge and rule cluster
+  steel    reference/CAPSULE 1.jpg.jpeg (1015,317)  cool highlight cluster
+  silver   reference/CAPSULE 1.jpg.jpeg (968,310)   lightest cluster
+  logo-ink brand/LOGO CAPSULE PNG...png (1188,769)  logo body pixel
+  The assets hold no green hue, so --color-mint is bound to the sampled cool highlight (steel).
+  Hex literals live in this file only.
+*/
+:root {
+  --color-ink-0: #020202;
+  --color-ink-1: #212227;
+  --color-ink-2: #4a4d54;
+  --color-steel: #88909d;
+  --color-silver: #f1f2f4;
+  --color-logo-ink: #151414;
+  --color-mint: var(--color-steel);
+
+  --ease-std: cubic-bezier(.4, 0, .2, 1);
+  --ease-pulse: cubic-bezier(.4, 0, .6, 1);
+  --dur-fast: .15s;
+  --dur-base: .3s;
+  --dur-slow: .5s;
+  --dur-long: 1s;
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}

@@ -1,0 +1,10 @@
+{
+  "records": {
+    "ca":      { "label": "Mint address", "state": "absent", "checked": "2026-11-02" },
+    "x":       { "label": "X", "state": "absent", "checked": "2026-11-02" },
+    "github":  { "label": "GitHub", "state": "absent", "checked": "2026-11-02" },
+    "domain":  { "label": "Domain", "state": "stated", "value": "capsule.mobi", "source": "client statement", "checked": "2026-11-02" },
+    "chain":   { "label": "Network", "state": "stated", "value": "Solana", "rpc": "https://solana-rpc.publicnode.com", "source": "client statement", "scope": "batch-level", "checked": "2026-11-02" },
+    "market":  { "label": "Market source", "state": "stated", "value": "DexScreener", "url": "https://api.dexscreener.com", "source": "client statement", "scope": "batch-level", "checked": "2026-11-02" }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "capsule",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "CAPSULE live Solana market board",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "gates": "node scripts/gates.mjs",
+    "serve": "node scripts/serve.mjs"
+  }
+}
